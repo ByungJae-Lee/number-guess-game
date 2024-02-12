@@ -1,0 +1,64 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+/* 배경이미지 */
+#main {
+  background: url(https://i.namu.wiki/i/QLn0Nou8OxhQHTh7tgZwv2RJV5ACWK5cl5LMk6sqaT2zLg4bQ1SDOXDRF-xvjsh0XeuNKeFDGuZNX4kETPaYqQ.webp)
+    no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100vw;
+  height: 100vh;
+}
+/* 텍스트들 중앙정렬 */
+#contents {
+  outline: solid 6px red;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  color: royalblue;
+  text-align: center;
+}
+
+#contents h1 {
+  font-size: 70px;
+}
+
+#contents h2 {
+  color: red;
+  font-size: 40px;
+}
+
+#result-area {
+  color: rgb(212, 241, 218);
+  font-size: 25px;
+}
+
+#chance-area {
+  color: rgb(244, 196, 244);
+  font-size: 25px;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+button {
+  zoom: 2;
+  color: rebeccapurple;
+  border-radius: 25% 10%;
+}
